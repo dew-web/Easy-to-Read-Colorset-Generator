@@ -1,5 +1,5 @@
 # Easy to Read Colorset Generator
-Custom colorset generator for Rhythia
+Custom colorset generator for Rhythia <br>
 This generates more easy-to-read colorset from colorset you use
 # How does this work
 Using the same color in the hold and stack sections helps improve the visibility
