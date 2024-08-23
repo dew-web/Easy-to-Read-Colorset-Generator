@@ -1,7 +1,3 @@
-# IMPORTANT INFORMATION
-Please put colorset.txt file before launch Colorgen.exe <br>
-Microsoft Defender detects this as trojan if there is no colorset.txt
-
 # Easy to Read Colorset Generator
 Custom colorset generator for Rhythia <br>
 This generates more easy-to-read colorset from colorset you use
@@ -18,10 +14,8 @@ Using the same color in the hold and stack sections to improve the visibility
 	 - .txt data of map (You can export .txt file in Rhythia)
 	 - .txt file of colorset you want to use
  
- 2. Rename the colorset to "colorset.txt"
- 3. Run "ColorsetGen.exe" and choose .txt file of map
- 4. This program overwrite .txt data of map so open it and check if the file contains colorset format data
- 5. Put it in colorsets folder and reload the game
+ 2. Run "ColorsetGen.exe" and choose .txt file of colorset first, and then choose .txt file of map
+ 3. Once you did that, (song_id)_colorset.txt will be generated so put it in colorsets folder and reload the game
 
 # Known issue
 high density stream is detected as hold (i'll fix this soon)
