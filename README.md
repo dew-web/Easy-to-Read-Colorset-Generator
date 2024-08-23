@@ -15,7 +15,7 @@ Using the same color in the hold and stack sections helps improve the visibility
 	 - .txt file of colorset you want to use
  
  2. Rename the colorset to "colorset.txt"
- 3. Run "color.exe" and choose .txt file of map
+ 3. Run "ColorsetGen.exe" and choose .txt file of map
  4. This program overwrite .txt data of map so open it and check if the file contains colorset format data
  5. There is 2 color codes at the first line so delete the first one
 	 
@@ -34,7 +34,7 @@ idk why but this code generates 2 color codes at the first line
 # For those want to change timeDiff, distance, etc
 Change the value and compile with this code below:
 ```
-g++ -o color.exe main.cpp -lcomdlg32
+g++ -o (name).exe main.cpp -lcomdlg32
 ```
  
 
