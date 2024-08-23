@@ -9,6 +9,7 @@
 #include <windows.h>
 #include <commdlg.h>
 #include <tchar.h>
+#include <algorithm>
 
 using namespace std;
 
@@ -51,7 +52,6 @@ std::string openFileDialog() {
 }
 
 int main() {
-
     vector<string> wheel;
 
     ifstream colorFile("colorset.txt");
@@ -62,6 +62,7 @@ int main() {
 
     string color;
     while (getline(colorFile, color)) {
+        color.erase(remove(color.begin(), color.end(), '\r'), color.end());
         wheel.push_back(color);
     }
     colorFile.close();
@@ -127,11 +128,11 @@ int main() {
         int timeDiff = notes[i].ms - notes[i - 1].ms;
         double distance = sqrt(pow(notes[i].row - notes[i - 1].row, 2) + pow(notes[i].column - notes[i - 1].column, 2));
 
-        if (notes[i].ms == notes[i - 1].ms) {
+        if (timeDiff == 0) {
             outputFile << wheel[colorIndex] << endl;
         }
 
-        else if (timeDiff < 60 && distance < 0.25) {
+        else if (timeDiff < 60 && distance < 0.2) {
             outputFile << wheel[colorIndex] << endl;
         }
 
