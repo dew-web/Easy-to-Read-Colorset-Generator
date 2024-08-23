@@ -17,19 +17,9 @@ Using the same color in the hold and stack sections to improve the visibility
  2. Rename the colorset to "colorset.txt"
  3. Run "ColorsetGen.exe" and choose .txt file of map
  4. This program overwrite .txt data of map so open it and check if the file contains colorset format data
- 5. There is 2 color codes at the first line so delete the first one
-	 
-
-> When you open it, it looks like this: <br>
-> #FF00FF#50F340 <br>
-> #A90028 <br>
-> **︙** <br>
-> <br>
-> In this case, delete #FF00FF 
-6. Save the file and put it in colorsets folder and reload the game
+ 5. Save the file and put it in colorsets folder and reload the game
 
 # Known issue
-idk why but this code generates 2 color codes at the first line <br>
 high density stream is detected as hold (i'll fix this soon)
 
 # For those want to change timeDiff, distance, etc
