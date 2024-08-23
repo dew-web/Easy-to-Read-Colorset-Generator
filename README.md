@@ -29,7 +29,8 @@ Using the same color in the hold and stack sections helps improve the visibility
 6. Save the file and put it in colorset and reload the game
 
 # Known issue
-idk why but this code generates 2 color codes at the first line
+idk why but this code generates 2 color codes at the first line <br>
+high density stream is detected as hold (i'll fix this soon)
 
 # For those want to change timeDiff, distance, etc
 Change the value and compile with this code below:
