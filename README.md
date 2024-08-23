@@ -20,12 +20,12 @@ Using the same color in the hold and stack sections helps improve the visibility
  5. There is 2 color codes at the first line so delete the first one
 	 
 
-> When you open it, it looks like this:
-> #FF00FF#50F340
-> #A90028
-> **︙**
-> 
-> In this case, delete #FF00FF
+> When you open it, it looks like this: <br>
+> #FF00FF#50F340 <br>
+> #A90028 <br>
+> **︙** <br>
+> <br>
+> In this case, delete #FF00FF 
 6. Save the file and put it in colorset and reload the game
 
 # Known issue
