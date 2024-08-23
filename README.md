@@ -31,7 +31,11 @@ Using the same color in the hold and stack sections helps improve the visibility
 # Known issue
 idk why but this code generates 2 color codes at the first line
 
- 
+# For those want to change timeDiff, distance, etc
+Change the value and compile with this code below:
+```
+g++ -o color.exe main.cpp -lcomdlg32
+```
  
 
  
