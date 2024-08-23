@@ -1,6 +1,6 @@
 # IMPORTANT INFORMATION
-I have no idea why but this code is detected as trojan by Microsoft Defender <br>
-Please let me know how do I fix this
+Please put colorset.txt file before launch Colorgen.exe <br>
+Microsoft Defender detects this as trojan if there is no colorset.txt
 
 # Easy to Read Colorset Generator
 Custom colorset generator for Rhythia <br>
