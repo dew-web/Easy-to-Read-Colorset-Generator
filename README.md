@@ -26,7 +26,7 @@ Using the same color in the hold and stack sections to improve the visibility
 > **︙** <br>
 > <br>
 > In this case, delete #FF00FF 
-6. Save the file and put it in colorset and reload the game
+6. Save the file and put it in colorsets folder and reload the game
 
 # Known issue
 idk why but this code generates 2 color codes at the first line <br>
