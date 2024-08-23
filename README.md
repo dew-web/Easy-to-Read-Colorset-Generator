@@ -1,3 +1,7 @@
+# IMPORTANT INFORMATION
+I have no idea why but this code is detected as trojan by Microsoft Defender <br>
+Please let me know how do I fix this
+
 # Easy to Read Colorset Generator
 Custom colorset generator for Rhythia <br>
 This generates more easy-to-read colorset from colorset you use
@@ -17,7 +21,7 @@ Using the same color in the hold and stack sections to improve the visibility
  2. Rename the colorset to "colorset.txt"
  3. Run "ColorsetGen.exe" and choose .txt file of map
  4. This program overwrite .txt data of map so open it and check if the file contains colorset format data
- 5. Save the file and put it in colorsets folder and reload the game
+ 5. Put it in colorsets folder and reload the game
 
 # Known issue
 high density stream is detected as hold (i'll fix this soon)
